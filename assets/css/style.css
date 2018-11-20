@@ -1,0 +1,29 @@
+body{
+background-image: url('../img/pizza_background.jpg');
+background-size: auto;
+/*width:100vw;
+height:100vh;*/
+margin:0;
+padding:0;
+}
+
+div.circle{
+    width: 600px;
+    height:600px;
+    background-color: white;
+    border-radius: 50%;
+    margin:auto;
+    padding:20px;
+    margin-top:50px;
+   /* vertical-align: middle;*/
+}
+
+div.illustration{
+    width: 600px;
+    height:600px;
+    background: url('../img/pizza_robot.gif') no-repeat;
+    background-size: 550px;
+    /*margin:auto;*/
+    padding-top:150px;
+    
+}

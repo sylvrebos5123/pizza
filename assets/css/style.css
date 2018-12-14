@@ -62,3 +62,44 @@ button{
     font-weight: bold;
     border:none;
 }
+
+.list_ingredients{
+    height:100px;
+    overflow-y: auto;
+}
+
+.btn_ingredient{
+    cursor: pointer;
+    background-color:#44b649;
+    margin:2px;
+    color: white;
+    font-size: 16px;
+    font-weight: bold;
+    border-bottom:1px solid white;
+}
+
+.btn_ingredient:hover{
+    background-color:#308b34;
+}
+
+/* width */
+::-webkit-scrollbar {
+    width: 10px;
+  }
+  
+  /* Track */
+  ::-webkit-scrollbar-track {
+    box-shadow: inset 0 0 5px #bbb; 
+    border-radius: 10px;
+  }
+   
+  /* Handle */
+  ::-webkit-scrollbar-thumb {
+    background: #bbb; 
+    border-radius: 10px;
+  }
+  
+  /* Handle on hover */
+  ::-webkit-scrollbar-thumb:hover {
+    background: #999; 
+  }
